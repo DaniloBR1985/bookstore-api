@@ -1,0 +1,66 @@
+## Ignore pastas e arquivos do Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Arquivos binários e objetos de build
+bin/
+obj/
+
+# Arquivos de pacotes NuGet
+*.nupkg
+# Diretório de pacotes local do NuGet
+packages/
+
+# Diretórios de publish
+publish/
+
+# Configurações de build do Rider (caso use)
+.idea/
+
+# Logs
+*.log
+
+# Arquivos temporários e de cache
+*.tmp
+*.cache
+
+# Configurações de workspace do Visual Studio Code (se usar)
+.vscode/
+
+# Configurações específicas de OS
+.DS_Store
+Thumbs.db
+
+# Configurações de JetBrains Rider
+.idea/
+
+# Arquivos gerados pelo Azure DevOps pipelines, caso existam
+*.azure-pipelines.yml
+
+# Outros arquivos comuns que não devem ir para o repositório
+*.pidb
+*.mdb
+*.pdb
+
+# Test Results
+TestResults/
+
+# Configurações do ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# Pacotes de ferramentas e builds locais
+*.psess
+*.vsp
+*.vspscc
+*.vssscc
+
+# Dados sensíveis
+appsettings.Development.json
+appsettings.Local.json
+
+# Arquivos de perfil do usuário
+*.userprefs
